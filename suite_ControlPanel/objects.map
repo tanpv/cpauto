@@ -1,0 +1,9 @@
+:InsightEpocControlPanelClass.accountBtn_QPushButton	{name='accountBtn' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.btnLoginMultiAcc_QPushButton	{name='btnLoginMultiAcc' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.btnLoginUserNext_QPushButton	{name='btnLoginUserNext' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.logOutButton_QPushButton	{name='logOutButton' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.topWidget_QWidget	{name='topWidget' type='QWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.txtPassWNext_QLineEdit	{name='txtPassWNext' type='QLineEdit' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.txtPassWNext_QLineEdit_2	{name='txtPassWNext' type='QLineEdit' visible='0' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.txtUserNameNext_QLineEdit	{name='txtUserNameNext' type='QLineEdit' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass_InsightEpocControlPanel	{name='InsightEpocControlPanelClass' type='InsightEpocControlPanel' visible='1'}
