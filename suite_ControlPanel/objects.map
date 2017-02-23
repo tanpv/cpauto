@@ -1,9 +1,14 @@
+: Date _HeaderViewItem	{container=':reportTableWdg_QHeaderView' text=' Date ' type='HeaderViewItem' visible='true'}
+: Name _HeaderViewItem	{container=':reportTableWdg_QHeaderView' text=' Name ' type='HeaderViewItem' visible='true'}
+: Rating _HeaderViewItem	{container=':reportTableWdg_QHeaderView' text=' Rating ' type='HeaderViewItem' visible='true'}
 :InsightEpocControlPanelClass.EPOCModeButton_QPushButton	{name='EPOCModeButton' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.InsightModeButton_QPushButton	{name='InsightModeButton' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.LabelCQ_QLabel	{name='LabelCQ' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.accountBtn_QPushButton	{name='accountBtn' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.backgroundCQ_QWidget	{name='backgroundCQ' type='QWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.background_QWidget	{name='background' type='QWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.beginTest1Button_QPushButton	{name='beginTest1Button' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.beginTest2Button_QPushButton	{name='beginTest2Button' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.btnCreateMultiAcc_QPushButton	{name='btnCreateMultiAcc' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.btnCreateProfileReplace_QPushButton	{name='btnCreateProfileReplace' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.btnCreateTraining_QPushButton	{name='btnCreateTraining' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
@@ -14,13 +19,21 @@
 :InsightEpocControlPanelClass.btnLoginMultiAcc_QPushButton_2	{name='btnLoginMultiAcc' type='QPushButton' visible='0' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.btnLoginUserNext_QPushButton	{name='btnLoginUserNext' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.btnNewProfi_QPushButton	{name='btnNewProfi' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.btnRenameCurrent_QPushButton	{name='btnRenameCurrent' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.btnRenameProfile_QPushButton	{name='btnRenameProfile' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.btnSelectProfile_QPushButton	{name='btnSelectProfile' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.btnShowMultiAcc_QPushButton	{name='btnShowMultiAcc' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.dateLabel_QLabel	{name='dateLabel' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.durationLabel_QLabel	{name='durationLabel' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.eyesOpen_QWidget	{name='eyesOpen' type='QWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.headsetButton_QPushButton	{name='headsetButton' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.labelTitle_QLabel	{name='labelTitle' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.label_17_QLabel	{name='label_17' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.label_3_QLabel	{name='label_3' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.label_4Sensor_QLabel	{name='label_4Sensor' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.label_6_QLabel	{name='label_6' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.lblProfileName_QLabel	{name='lblProfileName' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.listExperimentCB_QComboBox	{name='listExperimentCB' type='QComboBox' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.listProfile_QListWidget	{name='listProfile' type='QListWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.logOutButton_QPushButton	{name='logOutButton' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.mentalCommands_controlTab_QTabWidget	{name='mentalCommands_controlTab' type='QTabWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
@@ -30,11 +43,21 @@
 :InsightEpocControlPanelClass.profileListSelectWidget_QListWidget	{name='profileListSelectWidget' type='QListWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.profileListSelectWidget_QListWidget_2	{name='profileListSelectWidget' type='QListWidget' visible='0' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.profileListWidget_QListWidget	{name='profileListWidget' type='QListWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.qt_tabwidget_stackedwidget_QStackedWidget	{name='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.reportLabel_QLabel	{name='reportLabel' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.reportTableWdg_QTableWidget	{name='reportTableWdg' type='QTableWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.signalQualitySensorFrame_SignalQualityFrame	{name='signalQualitySensorFrame' type='SignalQualityFrame' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.startRecordingButton_QPushButton	{name='startRecordingButton' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.step1Button_QPushButton	{name='step1Button' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.step2Button_QPushButton	{name='step2Button' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.step3Button_QPushButton	{name='step3Button' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.stopRecordingButton_QPushButton	{name='stopRecordingButton' type='QPushButton' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.tabLabel_QLabel	{name='tabLabel' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.textClick_QLabel	{name='textClick' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.timeLabel_QLabel	{name='timeLabel' type='QLabel' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.topWidget_QWidget	{name='topWidget' type='QWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.trainingTabWidget_QTabWidget	{name='trainingTabWidget' type='QTabWidget' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
+:InsightEpocControlPanelClass.txtCurrentProfile_QLineEdit	{name='txtCurrentProfile' type='QLineEdit' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.txtNewProfileReplace_QLineEdit	{name='txtNewProfileReplace' type='QLineEdit' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.txtNewTraining_QLineEdit	{name='txtNewTraining' type='QLineEdit' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
 :InsightEpocControlPanelClass.txtPassWNext_QLineEdit	{name='txtPassWNext' type='QLineEdit' visible='1' window=':InsightEpocControlPanelClass_InsightEpocControlPanel'}
@@ -47,6 +70,7 @@
 :Login.qt_msgbox_buttonbox_QDialogButtonBox	{name='qt_msgbox_buttonbox' type='QDialogButtonBox' visible='1' window=':Login_QMessageBox'}
 :Login_QMessageBox	{type='QMessageBox' unnamed='1' visible='1' windowTitle='Login'}
 :OK_QPushButton	{text='OK' type='QPushButton' unnamed='1' visible='1' window=':_QMessageBox'}
+:Yes_QPushButton	{text='Yes' type='QPushButton' unnamed='1' visible='1' window=':_QMessageBox'}
 :_QMessageBox	{type='QMessageBox' unnamed='1' visible='1'}
 :_SystemTray	{type='SystemTray'}
 :listProfile_QScrollBar	{container=':InsightEpocControlPanelClass.listProfile_QListWidget' type='QScrollBar' unnamed='1' visible='1'}
@@ -56,4 +80,20 @@
 :menuGroupBox.detectionListWidget_QListWidget	{container=':InsightEpocControlPanelClass.menuGroupBox_QGroupBox' name='detectionListWidget' type='QListWidget' visible='1'}
 :menuGroupBox.detectionsMenuButton_QPushButton	{container=':InsightEpocControlPanelClass.menuGroupBox_QGroupBox' name='detectionsMenuButton' type='QPushButton' visible='1'}
 :menuGroupBox.detectionsPushButton_QPushButton	{container=':InsightEpocControlPanelClass.menuGroupBox_QGroupBox' name='detectionsPushButton' type='QPushButton' visible='1'}
+:menuGroupBox.helpListWidget_QListWidget	{container=':InsightEpocControlPanelClass.menuGroupBox_QGroupBox' name='helpListWidget' type='QListWidget' visible='1'}
+:menuGroupBox.helpMenuButton_QPushButton	{container=':InsightEpocControlPanelClass.menuGroupBox_QGroupBox' name='helpMenuButton' type='QPushButton' visible='1'}
+:menuGroupBox.helpPushButton_QPushButton	{container=':InsightEpocControlPanelClass.menuGroupBox_QGroupBox' name='helpPushButton' type='QPushButton' visible='1'}
+:menuGroupBox.reportsMenuButton_QPushButton	{container=':InsightEpocControlPanelClass.menuGroupBox_QGroupBox' name='reportsMenuButton' type='QPushButton' visible='1'}
 :profileListSelectWidget_QScrollBar	{container=':InsightEpocControlPanelClass.profileListSelectWidget_QListWidget' type='QScrollBar' unnamed='1' visible='1'}
+:qt_tabwidget_stackedwidget.tab_3_QWidget	{container=':InsightEpocControlPanelClass.qt_tabwidget_stackedwidget_QStackedWidget' name='tab_3' type='QWidget' visible='1'}
+:qt_tabwidget_stackedwidget.tab_4_QWidget	{container=':InsightEpocControlPanelClass.qt_tabwidget_stackedwidget_QStackedWidget' name='tab_4' type='QWidget' visible='1'}
+:reportTableWdg_QHeaderView	{container=':InsightEpocControlPanelClass.reportTableWdg_QTableWidget' orientation='1' type='QHeaderView' unnamed='1' visible='1'}
+:tab_3.surpriseSlider_QSlider	{container=':qt_tabwidget_stackedwidget.tab_3_QWidget' name='surpriseSlider' type='QSlider' visible='1'}
+:tab_4.TrainningInProgressSlider_QProgressBar	{container=':qt_tabwidget_stackedwidget.tab_4_QWidget' name='TrainningInProgressSlider' type='QProgressBar' visible='1'}
+:tab_4.abortTrainingBtn_QPushButton	{container=':qt_tabwidget_stackedwidget.tab_4_QWidget' name='abortTrainingBtn' type='QPushButton' visible='1'}
+:tab_4.clearTrainingBtn_2_QPushButton	{container=':qt_tabwidget_stackedwidget.tab_4_QWidget' name='clearTrainingBtn_2' type='QPushButton' visible='1'}
+:tab_4.expressionCBox_2_QComboBox	{container=':qt_tabwidget_stackedwidget.tab_4_QWidget' name='expressionCBox_2' type='QComboBox' visible='1'}
+:tab_4.startTrainingBtn_2_QPushButton	{container=':qt_tabwidget_stackedwidget.tab_4_QWidget' name='startTrainingBtn_2' type='QPushButton' visible='1'}
+:tab_4.trainingControlLabel_QLabel	{container=':qt_tabwidget_stackedwidget.tab_4_QWidget' name='trainingControlLabel' type='QLabel' visible='1'}
+:waitFromCloudServer.viewBtn_QPushButton	{name='viewBtn' type='QPushButton' visible='1' window=':waitFromCloudServer_QDialog'}
+:waitFromCloudServer_QDialog	{name='waitFromCloudServer' type='QDialog' visible='1'}
